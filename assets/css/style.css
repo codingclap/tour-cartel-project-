@@ -118,6 +118,10 @@ ol {
 [text-size="small"]{
   font-size: 14px;
 }
+
+[text-size="medium"]{
+  font-size: 15px;
+}
 a {
   color: #777;
   transition: all ease-in-out 0.5s;
@@ -169,6 +173,20 @@ left: 0px;
   left: 25px;
 }
 
+
+.li-bullet-card{
+  margin-left:15px;
+}
+.li-bullet-card::before{
+  content: " ";
+  width:7px;
+  height:7px;
+  background-color: #777;
+  position: absolute;
+  border-radius: 10px; 
+  margin-top: 6px; 
+  left: 25px;
+}
 .bullet-hide-show{
   height: 0px;
   opacity: 0;
@@ -180,6 +198,22 @@ left: 0px;
   opacity: 1;
   transition: all ease-in-out 0.5s;
 }
+
+@media (max-width:768px) {
+  .bullet-hide-show{
+    height: 100%;
+    opacity: 1;
+  }
+
+  .trending .trend-item1 .trend-image{
+    min-height: 450px;
+  }
+  .trending .trend-item1 .trend-image img{ 
+    object-fit: cover;
+    aspect-ratio: 2 / 2.3;
+  } 
+}
+
 a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #029e9d !important; }
 
