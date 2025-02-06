@@ -85,7 +85,7 @@ h5 a:hover,
 h5 a:focus,
 h6 a:hover,
 h6 a:focus {
-  color: #029e9d;
+  color: #F6F4DD;
   transition: all ease-in-out 0.5s;
   outline: none;
   text-decoration: none !important;
@@ -1302,12 +1302,12 @@ button {
   padding: 14px 24px;
   text-transform: capitalize;
   transition: all ease-in-out 0.5s;
-  background: #029e9d;
-  color: #fff;
+  background: #DFB63F;
+  color: #760D30;
   display: inline-block;
   border-radius: 10px;
   border: none;
-  box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+  box-shadow:0px 0px 0px 2px rgb(223 182 63);
   overflow: hidden;
 }
 
@@ -1319,7 +1319,7 @@ button {
   height: 100%;
   top: 0;
   content: '';
-  background: #fdc703;
+  background: #760D30;
   color: #fff !important;
   transition: all ease-in-out 0.5s;
   z-index: -1;
@@ -1478,7 +1478,7 @@ input#submit:hover {
   display: block;
   width: 50px;
   height: 50px;
-  background: #029e9d;
+  background: #DFB63F;
   position: relative;
   transition: all ease-in-out 0.5s;
   text-align: center;
@@ -2553,7 +2553,7 @@ header #navbar {
 .main_header_area .register-login a {
   font-size: 15px;
   text-transform: uppercase;
-  color: #777;
+  color: #760D30;
 }
 
 .main_header_area .register-login .dropdown a {
@@ -2822,7 +2822,7 @@ header #navbar {
 
 .header_menu .navbar.navbar-default.navbar-sticky-in .nav.navbar-nav li:hover>a,
 .header_menu .navbar.navbar-default.navbar-sticky-in .nav.navbar-nav li.active>a {
-  color: #029e9d;
+  color: #DFB63F;
 }
 
 .main_header_area .header_mlogo .navbar.navbar-default .navbar-header {
@@ -3633,7 +3633,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
   background: #DFB63F;
   font-size: 21px;
   padding: 10px 20px;
-  color: #fff;
+  color: #F6F4DD;
   transition: all ease-in-out 0.5s;
   height: 50px;
   width: 50px;
@@ -3642,13 +3642,13 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 
 .banner .swiper-button-next:hover:after,
 .banner .swiper-button-prev:hover:after {
-  background: #fdc703;
-  color: #fff;
+  background: #DFB63F;
+  color: #F6F4DD;
   transition: all ease-in-out 0.5s;
 }
 
 .banner .slider-before:before {
-  background: #f1f1f1;
+  background: #F6F4DD;
   content: '';
   position: absolute;
   bottom: 0;
@@ -4290,7 +4290,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
   width: 100%;
   height: 0;
   transition: all ease-in-out 0.5s;
-  background: #029e9d !important;
+  background: #DFB63F !important;
   cursor: pointer;
 }
 
@@ -7162,7 +7162,7 @@ footer {
   position: relative;
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-color: #17233e;
+  background-color: #760D30;
 }
 
 footer .overlay {
@@ -7172,12 +7172,12 @@ footer .overlay {
 footer a,
 footer p,
 footer li {
-  color: #fff;
+  color: #F6F4DD;
   font-weight: 400;
 }
 
 footer a:hover {
-  color: #fff !important;
+  color: #760D30 !important;
 }
 
 footer h3 {
@@ -7214,7 +7214,7 @@ footer .footer-upper .footer-links ul li {
 
 footer .footer-upper .footer-links ul li a {
   transition: all ease-in-out 0.5s;
-  color: #fff;
+  color: #F6F4DD;
 }
 
 footer .footer-upper .footer-links ul li a:hover {
@@ -7281,7 +7281,7 @@ footer .footer-upper .footer-links .post-list span {
 
 footer .footer-upper .footer-about p,
 footer .footer-upper .footer-about li {
-  color: #777;
+  color: #F6F4DD;
 }
 
 footer .footer-upper .footer-about li {
@@ -7348,7 +7348,7 @@ footer .footer-listing-main .footer-listing i {
 
 .social-links ul li a {
   background: #ffffff26;
-  color: #fff;
+  color: #F6F4DD;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -7359,8 +7359,8 @@ footer .footer-listing-main .footer-listing i {
 }
 
 .social-links ul li a:hover {
-  color: #fff;
-  background: #029e9d;
+  color: #760D30;
+  background: #DFB63F;
 }
 
 footer.footer1 {
