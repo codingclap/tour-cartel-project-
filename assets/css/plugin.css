@@ -3874,9 +3874,9 @@
      padding: 10px 15px;
      margin: 0;
      text-decoration: none;
-     color: #B6B3C4!important;
+     color: #F6F4DD!important;
      display: block;
-     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+     border-bottom: 1px solid #dfb73f27;
      -o-transition: all 0.3s ease;
      -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
@@ -3905,7 +3905,7 @@
      top: 94px;
      left: 0;
      right: 0;
-     background: #1F1D26;
+     background: #760D30;
      height: 200px;
      overflow-y: scroll;
  }
@@ -3916,7 +3916,7 @@
  
  .slicknav_nav ul li {
      padding-left: 0;
-     background: #1F1D26;
+     background: #760D30;
  }
  .slicknav_nav ul li li {
      padding-left: 0;
@@ -3928,14 +3928,14 @@
      -webkit-border-radius: 0;
      -moz-border-radius: 0;
      border-radius: 0;
-     background: #443E56;
-     color: #FFF
+     background: #760D30;
+     color: #F6F4DD
  }
  .slicknav_nav a:hover {
      -webkit-border-radius: 0;
      -moz-border-radius: 0;
      border-radius: 0;
-     background: #443E56;
+     background: #760D30;
  }
  .slicknav_nav .slicknav_txtnode {
      margin-left: 15px;
@@ -3946,7 +3946,7 @@
      top: 0;
      right: 0;
      bottom: 0;
-     color: #fff;
+     color: #F6F4DD;
      padding-top: 10px;
      width: 50px;
      text-align: center;
