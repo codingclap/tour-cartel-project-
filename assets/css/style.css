@@ -36,10 +36,15 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   font-weight: 400;
-  color: #777;
+  color: #F6F4DD;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background: rgb(165,23,49);
+background: -moz-linear-gradient(335deg, rgba(165,23,49,1) 57%, rgba(118,13,48,1) 91%);
+background: -webkit-linear-gradient(335deg, rgba(165,23,49,1) 57%, rgba(118,13,48,1) 91%);
+background: linear-gradient(335deg, rgba(165,23,49,1) 57%, rgba(118,13,48,1) 91%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a51731",endColorstr="#760d30",GradientType=1);
 }
 
 h1,
@@ -52,7 +57,7 @@ h6 {
   font-family: "Playfair Display", serif;
   text-transform: capitalize;
   margin: 0 0 1rem;
-  color: #17233e;
+  color: #DFB63F;
   line-height: 1.4;
 }
 
@@ -62,7 +67,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: #17233e;
+  color: #DFB63F;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
   text-decoration: none;
@@ -216,7 +221,7 @@ a:focus {
   content: " ";
   width: 8px;
   height: 8px;
-  background-color: #777;
+  background-color: #F6F4DD;
   position: absolute;
   border-radius: 10px;
   margin-top: 7px;
@@ -233,7 +238,7 @@ a:focus {
   content: " ";
   width: 7px;
   height: 7px;
-  background-color: #ffffff;
+  background-color: #F6F4DD;
   position: absolute;
   border-radius: 10px;
   margin-top: 6px;
@@ -251,7 +256,7 @@ a:focus {
   content: " ";
   width: 7px;
   height: 7px;
-  background-color: #777;
+  background-color: #F6F4DD;
   position: absolute;
   border-radius: 10px;
   margin-top: 6px;
@@ -349,16 +354,24 @@ img {
   display: none !important;
 }
 
+.red{
+  color:#A51731;
+}
+.darkred{
+  color:#760D30;
+}
 .white {
   color: #fff !important;
 }
-
+.cream{
+  color: #F6F4DD
+}
 .theme {
-  color: #029e9d !important;
+  color: #F6F4DD !important;
 }
 
 .theme1 {
-  color: #fdc703 !important;
+  color: #DFB63F !important;
 }
 
 .theme2 {
@@ -380,7 +393,9 @@ img {
 .bg-grey {
   background: #f1f1f1 !important;
 }
-
+.bg-darkred{
+  background: #760D30;
+}
 .bg-lgrey {
   background: #fdfdfd !important;
 }
@@ -405,6 +420,9 @@ img {
   background: #000000 !important;
 }
 
+.bg-darkred {
+  background: #760D30 !important;
+}
 .bg-white {
   background: #fff !important;
 }
@@ -414,15 +432,15 @@ img {
 }
 
 .border-b {
-  border-bottom: 1px dashed #f1f1f1 !important;
+  border-bottom: 1px dashed #F6F4DD !important;
 }
 
 .border-all {
-  border: 1px solid #f1f1f1 !important;
+  border: 1px solid #F6F4DD !important;
 }
 
 .border-end {
-  border-right: 1px solid #f1f1f1 !important;
+  border-right: 1px solid #F6F4DD !important;
 }
 
 .rating span {
@@ -893,7 +911,7 @@ table thead tr th {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000000;
+  /* background: #000000; */
   transition: all ease-in-out 0.5s;
   opacity: 0.5;
 }
@@ -926,8 +944,8 @@ table thead tr th {
 }
 
 .white-overlay {
-  background: #fdfdfd;
-  opacity: 0.5;
+  /* background: #fdfdfd; */
+  opacity: 0.90;
 }
 
 section {
@@ -2397,7 +2415,9 @@ header #navbar {
 .navbar-default .navbar-nav li.active a:hover {
   background: #f33807;
 }
-
+.navbar-default .navbar-nav li a{
+  color:#F6F4DD;
+}
 /* Main Menu Dropdown */
 .navbar-nav li {
   position: relative;
@@ -2496,7 +2516,7 @@ header #navbar {
 .main_header_area .header-content {
   position: relative;
   z-index: 1;
-  background: #ffffff30;
+  background: #DFB63F;
 }
 
 .main_header_area .header-content li {
@@ -2655,7 +2675,11 @@ header #navbar {
 .header_menu .navbar.navbar-default {
   border-radius: 0px;
   margin-bottom: 0px;
-  background: transparent;
+  background: rgb(165,23,49);
+  background: -moz-linear-gradient(16deg, rgba(165,23,49,1) 21%, rgba(118,13,48,1) 80%);
+  background: -webkit-linear-gradient(16deg, rgba(165,23,49,1) 21%, rgba(118,13,48,1) 80%);
+  background: linear-gradient(16deg, rgba(165,23,49,1) 21%, rgba(118,13,48,1) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a51731",endColorstr="#760d30",GradientType=1);
   border: none;
   width: 100%;
   z-index: 9;
@@ -2725,7 +2749,7 @@ header #navbar {
 
 .header_menu .navbar.navbar-default .nav.navbar-nav li:hover a,
 .header_menu .navbar.navbar-default .nav.navbar-nav li.active a {
-  color: #029e9d;
+  color: #F6F4DD;
   background: transparent;
 }
 
@@ -3606,7 +3630,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 
 .banner .swiper-button-next:after,
 .banner .swiper-button-prev:after {
-  background: #029e9d;
+  background: #DFB63F;
   font-size: 21px;
   padding: 10px 20px;
   color: #fff;
@@ -4356,7 +4380,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
   left: 0;
   width: 0;
   bottom: 0;
-  background: #029e9d;
+  background: #DFB63F;
   height: 4px;
   transition: all ease-in-out 0.5s;
   z-index: 2;
